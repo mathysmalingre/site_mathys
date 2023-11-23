@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>A-propos</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Homard&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Lobster&display=swap" rel="stylesheet">
+</head>
+
+<body class="fond">
+    <header>
+        <nav>
+            <img src="images/logo.png" alt="Logo Samsung">
+            <div>
+                <a href="index.html">Accueil</a>
+                <a href="a-propos.html">A-propos</a>
+                <a href="nouveautés.html">Nouveautés</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="presentation" class="section-presentation">
+            <h1>Contactez moi</h1>
+        </section>
+    </main>
+       
+    <section id="contact" class="section-contact">
+        <form method="get" action="#">
+            <div class="form-nom-email">
+                <div class="form-column">
+                    <label for="nom">Prénom</label>
+                    <input type="text" name="nom" id="nom">
+                </div>
+                <div class="form-column">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+            </div>
+    
+            <div class="form-radio">
+                <label>Genre :</label>
+                <div class="form-radio-options">
+                    <label for="homme">
+                        <input type="radio" id="homme" name="genre" value="Homme">
+                        Homme
+                    </label>
+                    <label for="femme">
+                        <input type="radio" id="femme" name="genre" value="Femme">
+                        Femme
+                    </label>
+                    <label for="non-binaire">
+                        <input type="radio" id="non-binaire" name="genre" value="Non-binaire">
+                        Non-binaire
+                    </label>
+                </div>
+            </div>
+            <br>
+            <div class="form-dropdown">
+                <label for="choix">Avez vous des enfants ?</label>
+                <select id="choix" name="choix">
+                    <option value="choix1">Par défaut</option>
+                    <option value="choix1">Oui</option>
+                    <option value="choix2">Non</option>
+                    <option value="choix2">Ne souhaite pas répondre</option>
+                </select>
+            </div>
+    
+            <label for="message">Message</label>
+            <textarea name="message" id="message" rows="10"></textarea><br><br>
+
+            <label>
+				<input type="checkbox" id="accepterConditions" name="accepterConditions">
+				J'accepte les Conditions d'utilisation
+			</label><br><br>
+
+            <input type="submit" value="ENVOYER" class="cta">
+        </form>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+</body>
+
+</html>
+
+    
+
+
+
